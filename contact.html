@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hotel website</title>
+	<link rel="stylesheet" href="style.css" media="all">
+	<link rel="stylesheet" href="mobile.css" media="screen and (max-width: 768px)">
+	<script src="https://kit.fontawesome.com/2eb9b015b2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<h1><a href="index.html">HBT</a></h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html" class="current-page">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="contact">
+		<div class="container">
+			<h2>
+				<span>Contact</span> Us
+			</h2>
+			<p>Please fill out the form below to contact us</p>
+			<form action="#">
+				<div class="form-input">
+					<label for="name">Name</label>
+					<input id="name" type="text" name="name">
+				</div>
+				<div class="form-input">
+					<label for="email">Email</label>
+					<input id="email" type="email" name="email">
+				</div>
+				<div class="form-input">
+					<label for="message">Message</label>
+					<textarea id="message" name="message" cols="30" rows="10"></textarea>
+				</div>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
+			</form>
+		</div>
+	</section>
+	<section class="contact-info">
+		<div class="container">
+			<div class="contact-info-section">
+				<i class="fas fa-hotel fa-3x"></i>
+				<h4>Location</h4>
+				<p>50 Main st, Boston MA</p>
+			</div>
+			<div class="contact-info-section">
+				<i class="fas fa-utensils fa-3x"></i>
+				<h4>Phone Number</h4>
+				<p>(617) 555-5555</p>
+			</div>
+			<div class="contact-info-section">
+				<i class="fas fa-dumbbell fa-3x"></i>
+				<h4>Email Address</h4>
+				<p>frontdesk@hotelbt.co</p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<p>Hotel BT &copy; 2019, All RIghts Reserved</p>
+		</div>
+	</footer>
+</body>
+</html>

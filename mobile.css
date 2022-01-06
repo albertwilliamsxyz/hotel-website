@@ -1,0 +1,72 @@
+header nav h1 {
+	float: none;
+	text-align: center;
+}
+
+header nav ul {
+	float: none;
+}
+
+header nav ul li {
+	display: block;
+	float: none;
+}
+
+section .history-image {
+	display: none;
+}
+
+section .history .history-content {
+	float: none;
+	width: 100%;
+}
+
+section .benefits .benefit {
+	float: none;
+	width: 100%;
+}
+
+section.about img {
+	float: none;
+	width: 50%;
+	margin-left: 27vw;
+}
+
+section.about .container {
+	height: 100%;
+}
+
+section.about .about-description {
+	float: none;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 40px;
+}
+
+section.guests-comments h2 {
+	line-height: 1.2em;
+}
+
+section.guests-comments .container {
+	padding: 40px;
+}
+
+section.contact {
+	text-align: center;
+}
+
+section.contact label {
+	display: block;
+}
+
+section.contact input,
+section.contact textarea {
+	width: 80%;
+}
+
+section.contact-info .container .contact-info-section {
+	display: block;
+	width: 100%;
+	margin-bottom: 50px;
+}
